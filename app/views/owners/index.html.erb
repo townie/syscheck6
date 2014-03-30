@@ -1,0 +1,18 @@
+<table>
+    <tr>
+      <td>Full name</td>
+      <td>Email</td>
+      <td>Dog Name</td>
+    </tr>
+
+    <% @owners.each do | owner| %>
+      <tr>
+      <td><%= owner.full_name%></td>
+      <td><%= owner.email%></td>
+      <td><%= owner.dog_name%></td>
+
+      </tr>
+    <% end %>
+
+</table>
+
